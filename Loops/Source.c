@@ -17,8 +17,9 @@ int main()
 	// Difference between these initialize array of characters?
 	char name = "Hello World";
 	char name2[MAXLEN];//Question: If I were to use a string, do I always needWhy don't we need to use MAXLEN?
-
+	
 	for (int i = 0; i < sizeof(set)/sizeof(set[0]); i++) //What is the middle condition checking?
+													// sizeof(set)/sizeof(set[0]) is used for finding size of array.
 	{
 		printf("%d \n", set[i]);
 		//printf("---\n");
@@ -43,7 +44,7 @@ int main()
 
 	*/
 
-	/*
+	
 	printf("//-------------------\n");
 
 	//Question: When do you use a Do While Loop?
@@ -64,7 +65,7 @@ int main()
 		j++;
 
 	} while (isTrue == true); //What other condition could work?
-	*/
+	
 
 	//When are Switch-Cases used? (Check example 16 in Week 3 Tues folder on GitHub)
 

@@ -5,6 +5,19 @@
 #include <stdio.h>
 
 
+typedef struct info {
+
+	char first_name[20];
+	char last_name[20];
+	int age;
+	char address[20];
+
+} INFO;
+
+
+
+
+
 //Struct consisting of data (First and last name, age, and address)
 
 
@@ -22,3 +35,4 @@ int main()
 
 	return 0;
 }
+
